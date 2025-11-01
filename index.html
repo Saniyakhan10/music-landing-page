@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #F1EEE9;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            height: 6rem;
+            background-color: #F1EEE9;
+            align-items: center;
+            margin-top: 50px;
+        }
+        
+        .parent1 {
+            font-size: 2.1rem;
+            font-weight: 600;
+            position: relative;
+            left: 2em;
+        }
+        
+        .parent1 i {
+            color: #F54725;
+            font-size: 2.5rem;
+            position: relative;
+            top: 0.4rem;
+            cursor: pointer;
+        }
+        
+        .parent2 a {
+            text-decoration: none;
+            padding: 1.1rem;
+            color: #464441;
+            position: relative;
+        }
+        
+        .parent2 a::after {
+            content: "";
+            width: 0;
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            height: 2px;
+            transition: width 0.3s;
+            background-color: #F54725;
+        }
+        
+        .parent2 a:hover::after {
+            width: 100%;
+        }
+        
+        .parent2 a:hover {
+            color: #F54725;
+        }
+        
+        .parent3 {
+            position: relative;
+            right: 2em;
+        }
+        
+        .parent3 button {
+            background-color: rgb(243, 195, 105);
+            border: none;
+            cursor: pointer;
+            padding: 1em;
+            border-radius: 24px;
+            padding: 0.8rem 2rem;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: background-color 0.3s;
+            box-shadow: 0 1px 13px#a4a3a1;
+        }
+        
+        .parent3 button:hover {
+            background-color: #F54725;
+            color: white;
+        }
+        /* body section */
+        
+        .parent4 {
+            display: flex;
+            width: 100%;
+        }
+        
+        .parent5 {
+            width: 50%;
+        }
+        
+        .parent6 {
+            width: 50%;
+        }
+        
+        .parent6 img {
+            width: 70%;
+            height: 100%;
+            position: relative;
+            top: 10%;
+            left: 5%;
+        }
+        
+        .parent5 {
+            position: relative;
+            left: 10%;
+            top: 8rem;
+        }
+        
+        .parent {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .parent img {
+            width: 170px;
+            border-radius: 10px;
+            position: relative;
+            top: 2.8rem;
+        }
+        
+        .parent5 {
+            flex: 1;
+        }
+        
+        .parent5 h1 {
+            position: relative;
+            top: 0.5rem;
+            font-size: 4rem;
+            line-height: 1.2;
+            font-weight: bold;
+            color: #13313C;
+        }
+        
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 500;
+            letter-spacing: 0px;
+            color: #1B3843;
+        }
+        
+        .parent5 {
+            max-width: 90%;
+        }
+        
+        .parent5 p {
+            position: relative;
+            top: 1rem;
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.6;
+            max-width: 75%;
+            color: #4B586C;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="parent1">
+            <p>pl<i class="fa-solid fa-circle-play"></i>y</p>
+        </div>
+        <div class="parent2">
+            <a href="#">Home</a>
+            <a href="#">Trending</a>
+            <a href="#">Collections</a>
+            <a href="#">Categories</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="parent3">
+            <button>Sign Up</button>
+        </div>
+    </nav>
+    <!-- home body -->
+    <div class="parent4">
+        <div class="parent5">
+            <h2>CREATE PLAYLIST & SHARE IT WITH YOUR FRIENDS</h2>
+            <h1>MUSIC FOR YOUR CURRENT MOOD</h1>
+            <p>Discover the perfect soundtrack for every moment with our 'Music for Your Current Mood' section. Whether you're feeling upbeat, reflective, or somewhere in between, explore curated playlists and tunes tailored to match your mood.</p>
+            <div class="parent">
+                <img src=" /image2.jpeg" alt="img1">
+                <img src="/image3.jpeg" alt="img2"></div>
+        </div>
+        <div class="parent6">
+            <img src="/image 1.jpeg" alt="img3">
+        </div>
+    </div>
+
+
+</body>
+
+</html>
